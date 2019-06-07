@@ -3,8 +3,15 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 public class AmazonHomePage {
-    WebDriver driver;
 
+    /*
+        1. open Amazon web app
+        2. locate the search text box and type Parth
+        3. Click on search button
+
+     */
+
+    WebDriver driver;
     @Test
     public void amazonHomePageTest() throws Exception {
         driver = new FirefoxDriver();
