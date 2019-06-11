@@ -38,7 +38,6 @@ public class WebPageTest {
             selectdropDown(accessDropDownElement[i], i);
         }
 
-        driver.quit();
     }
 
 
